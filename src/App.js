@@ -1,18 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import './css/style.css';
+import './css/mobile.css';
+import { NavBar } from './components/navbar/NavBar.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      //Swathy
-      </header>
-      <div id="content">
-        // Keli
-      </div>
-      <footer className="">
-       //Jeel
-      </footer>
+      <div id="page">
+        <NavBar />
+        <div id="content">
+          {/* Keli */}
+        </div>
+        <footer className="">
+          {/* Jeel */}
+        </footer>
+
+      </div> {/* page div */}
     </div>
   );
 }
