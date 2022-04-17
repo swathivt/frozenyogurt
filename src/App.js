@@ -3,6 +3,7 @@ import './App.css';
 import './css/style.css';
 import './css/mobile.css';
 import { NavBar } from './components/navbar/NavBar.js';
+import {BigHome} from './components/keli/BigHome.js';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div id="page">
         <NavBar />
         <div id="content">
+        <BigHome />
           {/* Keli */}
         </div>
         <footer className="">
