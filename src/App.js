@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <div id="page">
         <NavBar />
-        <div id="content">
+        <div id="body">
         <BigHome />
           {/* Keli */}
         </div>
